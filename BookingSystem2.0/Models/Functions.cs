@@ -36,7 +36,7 @@ namespace BookingSystem2._0.Models
         }
         public Functions()
         {
-            ConStr = @"Data Source=LAPTOP-M3F59R2L\\SQLEXPRESS;Initial Catalog=PlumberMaster;User ID=Conraid;Password=Marco@28;TrustServerCertificate=True";
+            ConStr = @"Data Source=MARCO;Initial Catalog=PlumberMaster;User ID=Conraid;Password=marco;TrustServerCertificate=True";
             Con = new SqlConnection(ConStr);
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
